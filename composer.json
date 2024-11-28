@@ -1,0 +1,34 @@
+{
+    "name": "samueldmonteiro/safe-uploader",
+    "keywords": [
+        "safe uploadr",
+        "safe",
+        "upload",
+        "safe images",
+        "uploader",
+        "salvar",
+        "armazenar",
+        "arquivos"
+    ],
+    "description": "Biblioteca para upload de arquivos de forma segura",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Samueldmonteiro\\SafeUploader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Davi",
+            "email": "samuel.dvmonteiro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "intervention/image": "^2.7",
+        "cocur/slugify": "^4.6"
+    }
+}
